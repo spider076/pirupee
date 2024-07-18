@@ -1,7 +1,9 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <main>
-      <h1>welcome to pirupee</h1>
+    <main className='p-1 overflow-x-hidden w-full flex flex-col space-y-20'>
+      <Hero />
     </main>
   );
 }
